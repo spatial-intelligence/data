@@ -11,6 +11,8 @@ CREATE TABLE public.f28dm_scotquakes (
     intensity integer
 );
 
+--Turn off logging for faster upload 
+ALTER TABLE f28dm_scotquakes SET UNLOGGED;
 
 
 --insert the data
@@ -802,10 +804,5 @@ INSERT INTO public.f28dm_scotquakes VALUES (784, '0101000020110F00006019E2F82A4E
 INSERT INTO public.f28dm_scotquakes VALUES (785, '0101000020110F000080FD6577512023C1F80FE983FC4D5D41', '2024-02-01 18:34:46', 7.6, 2.8, 0);
 INSERT INTO public.f28dm_scotquakes VALUES (786, '0101000020110F000040F163ECBF8820C1F85C6D5577C15D41', '2024-03-25 13:44:54', 2.6, 1.2, 0);
 
-
-
---add PK
-ALTER TABLE ONLY public.f28dm_scotquakes
-    ADD CONSTRAINT f28dm_scotquakes_pkey PRIMARY KEY (objectid);
-
-
+--Turn logging back on 
+ALTER TABLE f28dm_scotquakes SET LOGGED;
