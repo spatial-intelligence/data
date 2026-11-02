@@ -12,7 +12,7 @@ CREATE TABLE film_reviews (
 
 INSERT INTO film_reviews (film_id, film_title, release_date, rating, review) VALUES
 (1,  'Groundhog Day', '1993-02-12', 9.0,
- 'A cynical weatherman relives the same day until he becomes a better person. Bill Murray is perfect, balancing sarcasm and sincerity, and the script turns a gimmick into a surprisingly moving meditation on growth.'),
+ 'A CYNICAL WEATHERMAN RELIVES THE SAME DAY UNTIL HE BECOMES A BETTER PERSON. BILL MURRAY IS PERFECT, BALANCING SARCASM AND SINCERITY, AND THE SCRIPT TURNS A GIMMICK INTO A SURPRISINGLY MOVING MEDITATION ON GROWTH.'),
 (2,  'Lost in Translation', '2003-09-12', 8.5,
  'Two lonely strangers connect in neon-lit Tokyo. Murray gives a quiet, wry, deeply human performance opposite Scarlett Johansson. Sofia Coppola favours mood over plot, and the ambiguous ending lingers long afterwards.'),
 (3,  'Ghostbusters', '1984-06-08', 8.0,
@@ -24,7 +24,7 @@ INSERT INTO film_reviews (film_id, film_title, release_date, rating, review) VAL
 (6,  'Stripes', '1981-06-26', 6.9,
  'Two slackers join the army and accidentally become heroes. Murray''s laid-back charm carries a loose, goofy plot. Dated in places, but the training montage and sly humour still land.'),
 (7,  'Scrooged', '1988-11-23', 6.5,
- 'A modern, ruthless TV executive gets the Dickensian ghost treatment. Murray is hilariously abrasive, though the frantic tone sometimes wobbles before a sentimental finish.'),
+'a modern, ruthless tv executive gets the dickensian ghost treatment. murray is hilariously abrasive, though the frantic tone sometimes wobbles before a sentimental finish.'),
 (8,  'The Royal Tenenbaums', '2001-12-14', 8.0,
  'A dysfunctional family of former prodigies reunites in a meticulously designed New York. Funny, sad and gorgeous to look at, with a superb ensemble including Murray as a stuffy neurologist.'),
 (9,  'Zombieland', '2009-10-02', 7.6,
